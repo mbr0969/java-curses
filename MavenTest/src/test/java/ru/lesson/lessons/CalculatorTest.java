@@ -4,13 +4,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by papa on 25.09.2016.
- */
 public class CalculatorTest {
 
     @Test
     public void testAdd() throws Exception {
-
+        Calculator calculator = new Calculator();
+        calculator.add(2,2);
+        assertEquals(4, calculator.getResult());
     }
 }
