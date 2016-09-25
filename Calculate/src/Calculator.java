@@ -1,9 +1,7 @@
-/**
- * Created by papa on 15.01.16.
- */
 public class Calculator {
 
 //Результат вычеслений
+
      private int result;
 
 //Суммируем аргументы
@@ -12,18 +10,23 @@ public class Calculator {
     {
         for (Integer param : params ){
             this.result += param;
-        }
+      }
     }
 
 //получаем результат
     public int getResult(){
-        return this.result;
+      return this.result;
     }
 
 //очищаем рузальтат
     public void cleanRezult(){
-        this.result = 0;
+      this.result = 0;
     }
 
+
+	
+	public static void main(String[] args){
+		System.out.println("Calcalate");
+	}
 
 }
