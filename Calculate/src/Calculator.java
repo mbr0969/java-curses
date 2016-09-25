@@ -23,8 +23,6 @@ public class Calculator {
       this.result = 0;
     }
 
-
-	
 	public static void main(String[] args){
 		System.out.println("Calcalate");
 		int first = Integer.valueOf(args[0]);
