@@ -1,8 +1,12 @@
 *.class
+<<<<<<< HEAD
 /.idea/*.*
+=======
+*/.idea/*.*
+>>>>>>> 3c784f75ce50faa1786dfd28563bf19785d4d3b6
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
+.name
 # Package Files #
 *.jar
 *.war
