@@ -10,16 +10,16 @@ public class InteractRunner {
             Calculator calc = new Calculator();
             String exit = "no";
             while (!exit.equals("yes")) {
-                System.out.println("Введите первое число : ");
+                System.out.println("Enter first number : ");
                 String first = reader.next();
-                System.out.println("Введите второе число : ");
+                System.out.println("Enter second number : ");
                 String second = reader.next();
 
                 calc.add(Integer.valueOf(first), Integer.valueOf(second));
-                System.out.println("Результат ; " + calc.getResult());
+                System.out.println("Result ; " + calc.getResult());
                 calc.cleanRezult();
 
-                System.out.println("Выход yes / no ");
+                System.out.println("Exit yes/no? ");
                 exit = reader.next();
             }
         } finally {
